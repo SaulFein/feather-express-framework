@@ -1,5 +1,5 @@
 {
-  "name": "fealther-express",
+  "name": "feather-express",
   "version": "1.0.0",
   "description": "express-like framework",
   "main": "index.js",
