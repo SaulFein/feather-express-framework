@@ -3,9 +3,10 @@
 feather-express is a light framework that makes it easier to create and use REST APIs.
 
 ## Installation:
-
-npm install feather-express
-
+  ```
+  npm install feather-express
+  ```
+  
 ## How To Use
 require feather-express module:
 
@@ -20,7 +21,7 @@ setup server:
 	    console.log(‘Server running on port 3000’);
 	});
   ```
-You can now create REST calls like in this example code:
+You can now create REST calls like in the code example below.
 
 ## Code Example:
   ```
