@@ -8,12 +8,14 @@ npm install feather-express
 
 ## How To Use
 require feather-express module:
-	```
+
+  ```
   var featherExpress = require(‘feather-express’);
   ```
 
 setup server:
-	```
+
+  ```
   featherExpress.listen(3000, () => {
 	    console.log(‘Server running on port 3000’);
 	});
