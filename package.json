@@ -1,7 +1,7 @@
 {
-  "name": "framework",
+  "name": "feather-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "express-like framework",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -17,7 +17,11 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/SaulFein/feather-express-framework"
+},
   "keywords": [],
-  "author": "",
+  "author": "SaulFein",
   "license": "ISC"
 }

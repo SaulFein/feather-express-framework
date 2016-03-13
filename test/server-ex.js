@@ -2,26 +2,26 @@ var frameWork = require(__dirname + '/../index');
 
 frameWork.get('/test', (req, res) => {
   res.writeHead(200, {'Content-Type': 'application/json'});
-  res.write(JSON.stringify({'message': 'GET testing'}));
+  res.write(JSON.stringify({'msg': 'GET testing'}));
   return res.end();
 });
 
 frameWork.post('/test', (req, res) => {
   res.writeHead(200, {'Content-Type': 'application/json'});
-  res.write(JSON.stringify({'message': 'POST testing'}));
+  res.write(JSON.stringify({'msg': 'POST testing'}));
   return res.end();
 });
 
 frameWork.patch('/test', (req, res) => {
   res.writeHead(200, {'Content-Type': 'application/json'});
-  res.write(JSON.stringify({'message': 'PATCH testing'}));
+  res.write(JSON.stringify({'msg': 'PATCH testing'}));
   return res.end();
 });
 
 frameWork.delete('/test', (req, res) => {
   res.writeHead(200, {'Content-Type': 'application/json'});
-  res.write(JSON.stringify({'message': 'DELETE testing'}));
-  return res.end()
+  res.write(JSON.stringify({'msg': 'DELETE testing'}));
+  return res.end();
 });
 
 frameWork.listen(3000, () => {

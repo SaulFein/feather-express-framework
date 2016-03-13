@@ -31,10 +31,10 @@ describe('testing functionality of the server', function() {
 
   it('should PATCH', (done) => {
     request(port)
-      .delete('/test')
+      .patch('/test')
       .end((err, res) => {
         expect(err).to.eql(null);
-        expect(res.body.msg).to.eql('PATCH test');
+        expect(res.body.msg).to.eql('PATCH testing');
         done();
       });
   });
@@ -44,7 +44,7 @@ describe('testing functionality of the server', function() {
       .delete('/test')
       .end((err, res) => {
         expect(err).to.eql(null);
-        expect(res.body.msg).to.eql('DELETE test');
+        expect(res.body.msg).to.eql('DELETE testing');
         done();
       });
   });
