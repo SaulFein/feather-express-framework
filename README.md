@@ -6,7 +6,7 @@ feather-express is a light framework that makes it easier to create and use REST
   ```
   npm install feather-express
   ```
-  
+
 ## How To Use
 require feather-express module:
 
@@ -39,7 +39,7 @@ You can now create REST calls like in the code example below.
     return res.end();
   });
 
-  frameWork.listen(3000, () => {
+  featherExpress.listen(3000, () => {
     console.log('Server running port on 3000');
   });
   ```
